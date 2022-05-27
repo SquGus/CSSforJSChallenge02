@@ -27,11 +27,10 @@
 
 .characterWrapper {
   min-height: 500px;
-  transform: translate(calc(1024px - 65%), 128px);
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 35%;
+  top: 128px;
+  right: 0;
+  width: calc(1024px*.35);
 }
 
 .controlColumn {
